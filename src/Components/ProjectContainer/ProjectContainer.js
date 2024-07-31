@@ -2,6 +2,8 @@ import React from 'react';
 import uniqid from 'uniqid';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
+import StorageIcon from '@mui/icons-material/Storage'; 
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
@@ -17,28 +19,55 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
+    <div className='project__links'>
+      {project.sourceCode && (
+        <a
+          href={project.sourceCode}
+          aria-label='source code'
+          className='link link--icon'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <GitHubIcon />
+        </a>
+      )}
 
-    {project.sourceCode && (
-      <a
-        href={project.sourceCode}
-        aria-label='source code'
-        className='link link--icon'
-      >
-        <GitHubIcon />
-      </a>
-    )}
+      {project.livePreview && (
+        <a
+          href={project.livePreview}
+          aria-label='live preview'
+          className='link link--icon'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <LaunchIcon />
+        </a>
+      )}
 
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
-    )}
+      {project.sourceCodeBackend && (
+        <a
+          href={project.sourceCodeBackend}
+          aria-label='source code backend'
+          className='link link--icon'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <StorageIcon /> 
+        </a>
+      )}
 
-   
+{project.videoLink && (
+        <a
+          href={project.videoLink}
+          aria-label='video link'
+          className='link link--icon'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <OndemandVideoIcon /> 
+        </a>
+      )}
+    </div>
   </div>
 );
 

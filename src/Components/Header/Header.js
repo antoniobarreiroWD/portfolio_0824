@@ -1,6 +1,8 @@
-import { header } from '../../portfolio'
+import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
+import logo from '../../Assets/barb.png'  
+import { header } from '../../portfolio'
 
 const Header = () => {
   const { homepage, title } = header
@@ -10,10 +12,10 @@ const Header = () => {
       <h3>
         {homepage ? (
           <a href={homepage} className='link'>
-            {title}
+            <img src={logo} alt={title} className='logo' />  
           </a>
         ) : (
-          title
+          <img src={logo} alt={title} className='logo' />
         )}
       </h3>
       <Navbar />
