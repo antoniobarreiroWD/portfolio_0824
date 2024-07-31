@@ -13,7 +13,7 @@ const about = {
   role: 'Full Stack Developer',
   social: {
     linkedin: 'https://www.linkedin.com/in/antonio-barreiro-b240b8104/',
-    github: 'https://github.com/antoniobarreiroimmune',
+    github: 'https://github.com/antoniobarreiroWD',
   },
 }
 
