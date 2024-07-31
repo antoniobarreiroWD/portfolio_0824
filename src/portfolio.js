@@ -36,7 +36,7 @@ const projects = [
       'Demo de un juego plataformas 2d creado con Phaser',                                                                                                                                                                                           
     stack: ['Phaser', 'Javascript'],
     sourceCode: 'https://github.com/antoniobarreiroimmune/first_phaser_game.git',
-    livePreview: 'https://antoniobarreiroimmune.github.io/first_phaser_game/',
+    livePreview: 'https://antoniobarreirowd.github.io/first_phaser_game/',
     
   },
   {
