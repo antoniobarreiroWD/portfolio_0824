@@ -23,7 +23,7 @@ const projects = [
     description:
       'Esta aplicación satisface las necesidades administrativas y legales de los trabajadores de medicina forense. Permite a los usuarios autorizados crear, actualizar y derivar procedimientos a otros departamentos para su posterior gestión.',
     stack: ['React', 'Javascript', 'Node.Js', 'MongoDB'],
-    sourceCode: 'https://github.com/antoniobarreiroimmune/project_dpl',
+    sourceCode: 'https://github.com/antoniobarreiroimmune/front_dpl',
     sourceCodeBackend: 'https://github.com/antoniobarreiroimmune/project_dpl',
     videoLink: 'https://youtu.be/pw_3_IJtreA',
     
