@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className='header center'>
-      <h3>
+      <h4>
         {homepage ? (
           <a href={homepage} className='link'>
             <img src={logo} alt={title} className='logo' />  
@@ -17,7 +17,7 @@ const Header = () => {
         ) : (
           <img src={logo} alt={title} className='logo' />
         )}
-      </h3>
+      </h4>
       <Navbar />
     </header>
   )

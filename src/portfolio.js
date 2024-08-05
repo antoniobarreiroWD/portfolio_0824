@@ -33,7 +33,7 @@ const projects = [
   {
     name: 'Las Aventuras de Mairim',
     description:
-      'Demo de un juego plataformas 2d creado con Phaser',                                                                                                                                                                                           
+      'Este proyecto es mi primera aproximación a la creación de videojuegos. Se trata de un juego de plataformas 2D en el que el jugador debe superar obstáculos y enemigos para llegar al final del nivel.',                                                                                                                                                                                           
     stack: ['Phaser', 'Javascript'],
     sourceCode: 'https://github.com/antoniobarreiroimmune/first_phaser_game.git',
     livePreview: 'https://antoniobarreirowd.github.io/first_phaser_game/',
@@ -42,7 +42,7 @@ const projects = [
   {
     name: 'Poke Combat',
     description:
-      'Valiéndonos de la PokeApi, creamos un juego en el que los usuarios pueden simular un combate entre pokemon.',
+      'Valiéndonos de la PokeApi, creamos un juego en el que los usuarios pueden simular un combate entre dos pokemon.',
     stack: ['React', 'Javascript', 'CSS'],
     sourceCode: 'https://github.com/antoniobarreiroimmune/pokeCombat',
     livePreview: 'https://poke-combat.vercel.app/',
