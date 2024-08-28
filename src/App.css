@@ -2,29 +2,32 @@
   font-family: 'Chewy', sans-serif;
   line-height: 1.5;
   color: #555;
-  background-color: var(--clr-bg);
+  background: var(--clr-bg); 
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: linear-gradient(135deg, #fcfcfc, #94b8d8); 
   --clr-bg-alt: #2978b5;
   --clr-fg: #2978b5;
   --clr-fg-alt: #444;
-  --clr-alt:black;
+  --clr-alt: black;
   --clr-primary: #2978b5;
+  --clr-sk-btn: #fcfcfc;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #232323;
+  --clr-bg: linear-gradient(135deg, #3d5c3d, #232323); 
   --clr-bg-alt: #77dd77;
   --clr-fg: #77dd77;
-  --clr-alt:white;
+  --clr-alt: white;
   --clr-fg-alt: white;
   --clr-primary: #77dd77;
+  --clr-sk-btn: #232323;
   --shadow: white 0px 10px 36px 0px,
     white 0px 0px 0px 1px;
 }
+
 
 main {
   max-width: 1100px;
@@ -128,7 +131,7 @@ main {
   background-color: var(--clr-fg);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
-  color:var(--clr-bg) ;
+  color:var(--clr-sk-btn) ;
 }
 
 .btn--plain:hover {

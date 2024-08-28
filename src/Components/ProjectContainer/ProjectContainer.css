@@ -2,7 +2,7 @@
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--shadow);
+ border: 1px solid var(--clr-fg-alt);
   transition: transform 0.2s linear;
   position: relative;
   min-height: 550px;
@@ -21,7 +21,9 @@
 
 .project__stack {
   display: flex;
-  flex-wrap: wrap;
+
+  
+ 
   justify-content: center;
   margin: 1.2em 0;
   min-height: 50px;
