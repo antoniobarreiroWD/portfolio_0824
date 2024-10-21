@@ -16,7 +16,7 @@ const projects = [
   {
     name: "LitLoop",
     description:
-      "LitLoop es una aplicación de gestión de libros que permite a los usuarios buscar, consultar información y comprar libros. Los usuarios pueden también pueden también guardar sus libros favoritos en su perfil. La aplicación consume la API de Google Books para obtener la información.",
+      "LitLoop es una aplicación que permite a los usuarios buscar, consultar información y adquirir libros. También pueden guardar sus favoritos en su perfil. La plataforma utiliza la API de Google Books para obtener los datos.",
     stack: ["React", "Javascript", "Node.Js", "MongoDB"],
     sourceCode: "https://github.com/antoniobarreiroWD/litloop__front",
     sourceCodeBackend: "https://github.com/antoniobarreiroWD/litloop__back",
