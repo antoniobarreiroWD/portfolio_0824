@@ -102,6 +102,7 @@ main {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border-radius: 10px;
 }
 
 .btn--outline:hover,
@@ -132,6 +133,7 @@ main {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
   color:var(--clr-sk-btn) ;
+  border-radius: 10px;
 }
 
 .btn--plain:hover {
