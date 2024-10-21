@@ -1,74 +1,72 @@
-
-
-
 const header = {
- 
-  homepage: 'https://github.com/antoniobarreiroWD',
-  title: 'ABM',
-}
+  homepage: "https://github.com/antoniobarreiroWD",
+  title: "ABM",
+};
 
 const about = {
- 
-  name: 'Antonio Barreiro',
-  role: 'Full Stack Developer',
+  name: "Antonio Barreiro",
+  role: "Full Stack Developer",
   social: {
-    linkedin: 'https://www.linkedin.com/in/antonio-barreiro-b240b8104/',
-    github: 'https://github.com/antoniobarreiroWD',
+    linkedin: "https://www.linkedin.com/in/antonio-barreiro-b240b8104/",
+    github: "https://github.com/antoniobarreiroWD",
   },
-}
+};
 
 const projects = [
   {
-    name: 'Legal Medicine ',
+    name: "LitLoop",
     description:
-      'Esta aplicación satisface las necesidades administrativas y legales de los trabajadores de medicina forense. Permite a los usuarios autorizados crear, actualizar y derivar procedimientos a otros departamentos para su posterior gestión.',
-    stack: ['React', 'Javascript', 'Node.Js', 'MongoDB'],
-    sourceCode: 'https://github.com/antoniobarreiroimmune/front_dpl',
-    sourceCodeBackend: 'https://github.com/antoniobarreiroimmune/project_dpl',
-    videoLink: 'https://youtu.be/pw_3_IJtreA',
-    
-  
-
+      "LitLoop es una aplicación de gestión de libros que permite a los usuarios buscar, consultar información y comprar libros. Los usuarios pueden también pueden también guardar sus libros favoritos en su perfil. La aplicación consume la API de Google Books para obtener la información.",
+    stack: ["React", "Javascript", "Node.Js", "MongoDB"],
+    sourceCode: "https://github.com/antoniobarreiroWD/litloop__front",
+    sourceCodeBackend: "https://github.com/antoniobarreiroWD/litloop__back",
+    livePreview: "https://litloop-front.vercel.app/",
   },
   {
-    name: 'Las Aventuras de Mairim',
+    name: "Legal Medicine ",
     description:
-      'Este proyecto es mi primera aproximación a la creación de videojuegos. Se trata de un juego de plataformas 2D en el que el jugador debe superar obstáculos y enemigos para llegar al final del nivel.',                                                                                                                                                                                           
-    stack: ['Phaser', 'Javascript'],
-    sourceCode: 'https://github.com/antoniobarreiroimmune/first_phaser_game.git',
-    livePreview: 'https://antoniobarreirowd.github.io/first_phaser_game/',
-    
+      "Esta aplicación satisface las necesidades administrativas y legales de los trabajadores de medicina forense. Permite a los usuarios autorizados crear, actualizar y derivar procedimientos a otros departamentos para su posterior gestión.",
+    stack: ["React", "Javascript", "Node.Js", "MongoDB"],
+    sourceCode: "https://github.com/antoniobarreiroimmune/front_dpl",
+    sourceCodeBackend: "https://github.com/antoniobarreiroimmune/project_dpl",
+    videoLink: "https://youtu.be/pw_3_IJtreA",
   },
   {
-    name: 'Poke Combat',
+    name: "Las Aventuras de Mairim",
     description:
-      'Valiéndonos de la PokeApi, creamos un juego en el que los usuarios pueden simular un combate entre dos pokemon.',
-    stack: ['React', 'Javascript', 'CSS'],
-    sourceCode: 'https://github.com/antoniobarreiroimmune/pokeCombat',
-    livePreview: 'https://poke-combat.vercel.app/',
-   
+      "Este proyecto es mi primera aproximación a la creación de videojuegos. Se trata de un juego de plataformas 2D en el que el jugador debe superar obstáculos y enemigos para llegar al final del nivel.",
+    stack: ["Phaser", "Javascript"],
+    sourceCode:
+      "https://github.com/antoniobarreiroimmune/first_phaser_game.git",
+    livePreview: "https://antoniobarreirowd.github.io/first_phaser_game/",
   },
-]
-
+  {
+    name: "Poke Combat",
+    description:
+      "Valiéndonos de la PokeApi, creamos un juego en el que los usuarios pueden simular un combate entre dos pokemon.",
+    stack: ["React", "Javascript", "CSS"],
+    sourceCode: "https://github.com/antoniobarreiroimmune/pokeCombat",
+    livePreview: "https://poke-combat.vercel.app/",
+  },
+];
 
 const skills = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Angular',
-  'Astro',
-  'Git',
- 'Node.js',
- 'Express',
-  'MongoDB',
-  'APIs',
-  'Phaser'
- 
-]
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Angular",
+  "Astro",
+  "Git",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "APIs",
+  "Phaser",
+];
 
 const contact = {
-  email: 'antoniobarreiro@icloud.com',
-}
+  email: "antoniobarreiro@icloud.com",
+};
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact };
